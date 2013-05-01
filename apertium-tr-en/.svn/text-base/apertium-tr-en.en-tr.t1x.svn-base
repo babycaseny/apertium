@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf8"?>
+<transfer>
+  <section-def-cats>
+    <def-cat n="num">
+      <cat-item tags="num"/>
+      <cat-item tags="num.*"/>
+    </def-cat>
+    <def-cat n="poss">
+      <cat-item tags="det.pos.*"/>
+    </def-cat>
+    <def-cat n="nom">
+      <cat-item tags="n.*"/>
+    </def-cat>
+  </section-def-cats>
+  <section-def-attrs>
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+    </def-attr>
+    <def-attr n="a_num">
+      <attr-item tags="num"/>
+    </def-attr>
+    <def-attr n="a_nom">
+      <attr-item tags="n"/>
+    </def-attr>
+  </section-def-attrs>
+  <section-def-vars>
+    <def-var n="number"/>
+    <def-var n="c_poss"/>
+    <!-- current possessor -->
+  </section-def-vars>
+  <section-rules>
+    <rule comment="nom">
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="nbr"/>
+                <lit-tag v="sg"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit v=""/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="remove plural if num + plural">
+	<pattern>
+		<pattern-item n="num"/>
+		<pattern-item n="nom"/>
+	</pattern>
+	<action>
+	 <choose>
+	   <when>
+	    <test>
+	     <equal>
+	      <clip pos="2" side="tl" part="nbr"/>
+	       <lit-tag v="pl"/>
+	     </equal>
+	    </test>
+	    <let>
+	     <clip pos="2" side="tl" part="nbr"/>
+	     <lit v=""/>
+	    </let>
+	   </when>
+          </choose>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_num"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+	
+    <rule comment="poss nom">
+      <pattern>
+        <pattern-item n="poss"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" side="tl" part="nbr"/>
+                <lit-tag v="sg"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="2" side="tl" part="nbr"/>
+              <lit v=""/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="my"/>
+              </equal>
+            </test>
+            <let>
+              <var n="poss"/>
+              <lit-tag v="p1s"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="your"/>
+              </equal>
+            </test>
+            <let>
+              <var n="poss"/>
+              <lit-tag v="p2p"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="our"/>
+              </equal>
+            </test>
+            <let>
+              <var n="poss"/>
+              <lit-tag v="p1p"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="their"/>
+              </equal>
+            </test>
+            <let>
+              <var n="poss"/>
+              <lit-tag v="p3p"/>
+            </let>
+          </when>
+          <otherwise>
+            <let>
+              <var n="poss"/>
+              <lit-tag v="p3s"/>
+            </let>
+          </otherwise>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="nbr"/>
+            <var n="poss"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+  </section-rules>
+</transfer>

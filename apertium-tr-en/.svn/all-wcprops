@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/apertium/!svn/ver/32495/incubator/apertium-tr-en
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/apertium/!svn/ver/25355/incubator/apertium-tr-en/Makefile
+END
+apertium-tr-en.en.dix
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/apertium/!svn/ver/26351/incubator/apertium-tr-en/apertium-tr-en.en.dix
+END
+lexchoicebil.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/apertium/!svn/ver/25332/incubator/apertium-tr-en/lexchoicebil.xsl
+END
+apertium-tr-en.tr-en.dix
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/apertium/!svn/ver/26351/incubator/apertium-tr-en/apertium-tr-en.tr-en.dix
+END
+en-tr.prob
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/apertium/!svn/ver/25297/incubator/apertium-tr-en/en-tr.prob
+END
+modes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/apertium/!svn/ver/25348/incubator/apertium-tr-en/modes.xml
+END
+apertium-tr-en.en-tr.t1x
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/apertium/!svn/ver/25364/incubator/apertium-tr-en/apertium-tr-en.en-tr.t1x
+END
+apertium-tr-en.en-tr.t2x
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/apertium/!svn/ver/25358/incubator/apertium-tr-en/apertium-tr-en.en-tr.t2x
+END
+en-tr.autogen.hfst
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/apertium/!svn/ver/25293/incubator/apertium-tr-en/en-tr.autogen.hfst
+END

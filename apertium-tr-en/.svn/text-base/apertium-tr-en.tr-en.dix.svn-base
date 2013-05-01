@@ -1,0 +1,226 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <!-- Common -->
+    <sdef n="n"       c="Noun"/>
+
+    <!-- Apertium -->
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="num"     c="Number"/>
+
+
+    <!-- trmorph -->
+    <sdef n="cnj"     c="Conjunction"/>
+
+  </sdefs>
+  <section id="main" type="standard">
+    <!-- Conjunctions -->
+
+	<e><p><l>ve<s n="cnj"/></l><r>and<s n="cnjcoo"/></r></p></e>
+	<e><p><l>veya<s n="cnj"/></l><r>or<s n="cnjcoo"/></r></p></e>
+
+    <!-- Nouns -->
+
+	<e><p><l>ev<s n="n"/></l><r>house<s n="n"/></r></p></e>
+	<e c="  0"><p><l>adam<s n="n"/></l><r>man<s n="n"/></r></p></e>
+	<e srl="1"><p><l>erkek<s n="n"/></l><r>man<s n="n"/></r></p></e>
+	<e><p><l>top<s n="n"/></l><r>ball<s n="n"/></r></p></e>
+	<e><p><l>kitap<s n="n"/></l><r>book<s n="n"/></r></p></e>
+	<e><p><l>şişe<s n="n"/></l><r>bottle<s n="n"/></r></p></e>
+	<e><p><l>dolap<s n="n"/></l><r>cupboard<s n="n"/></r></p></e>
+	<e><p><l>kapı<s n="n"/></l><r>door<s n="n"/></r></p></e>    
+	<e><p><l>yemek<s n="n"/></l><r>food<s n="n"/></r></p></e>
+	<e><p><l>anahtar<s n="n"/></l><r>key<s n="n"/></r></p></e>
+	<e><p><l>kalem<s n="n"/></l><r>pen<s n="n"/></r></p></e>
+	<e><p><l>çorba<s n="n"/></l><r>soup<s n="n"/></r></p></e>
+	<e c="  0"><p><l>kadın<s n="n"/></l><r>woman<s n="n"/></r></p></e>
+	<e srl="1"><p><l>bayan<s n="n"/></l><r>woman<s n="n"/></r></p></e>
+	<e><p><l>masa<s n="n"/></l><r>table<s n="n"/></r></p></e>
+	<e><p><l>gitar<s n="n"/></l><r>guitar<s n="n"/></r></p></e>
+	<e><p><l>okul<s n="n"/></l><r>school<s n="n"/></r></p></e>
+	<e><p><l>hastane<s n="n"/></l><r>hospital<s n="n"/></r></p></e>
+	<e c="  0"><p><l>restoran<s n="n"/></l><r>restaurant<s n="n"/></r></p></e>
+	<e srl="1"><p><l>lokanta<s n="n"/></l><r>restaurant<s n="n"/></r></p></e>
+	<e><p><l>kedi<s n="n"/></l><r>cat<s n="n"/></r></p></e>
+	<e><p><l>köpek<s n="n"/></l><r>dog<s n="n"/></r></p></e>
+	<e><p><l>pazar<s n="n"/></l><r>market<s n="n"/></r></p></e>
+	<e><p><l>deniz<s n="n"/></l><r>sea<s n="n"/></r></p></e>
+	<e><p><l>nehir<s n="n"/></l><r>river<s n="n"/></r></p></e>
+	<e><p><l>demokrasi<s n="n"/></l><r>democracy<s n="n"/></r></p></e>
+	<e><p><l>gün<s n="n"/></l><r>day<s n="n"/></r></p></e>
+	<e><p><l>dünya<s n="n"/></l><r>world<s n="n"/></r></p></e>
+	<e><p><l>iş<s n="n"/></l><r>work<s n="n"/></r></p></e>
+	<e><p><l>yıl<s n="n"/></l><r>year<s n="n"/></r></p></e>
+	<e><p><l>sahış<s n="n"/></l><r>person<s n="n"/></r></p></e>
+	<e><p><l>yol<s n="n"/></l><r>way<s n="n"/></r></p></e>
+	<e><p><l>şey<s n="n"/></l><r>thing<s n="n"/></r></p></e>
+	<e><p><l>hayat<s n="n"/></l><r>life<s n="n"/></r></p></e>
+	<e><p><l>bölüm<s n="n"/></l><r>hand<s n="n"/></r></p></e>
+	<e><p><l>çocuk<s n="n"/></l><r>child<s n="n"/></r></p></e>
+	<e><p><l>göz<s n="n"/></l><r>eye<s n="n"/></r></p></e>
+	<e><p><l>yer<s n="n"/></l><r>place<s n="n"/></r></p></e>
+	<e><p><l>hükümet<s n="n"/></l><r>government<s n="n"/></r></p></e>
+	<e><p><l>şirket<s n="n"/></l><r>company<s n="n"/></r></p></e>
+	<e><p><l>sayı<s n="n"/></l><r>number<s n="n"/></r></p></e>	
+	<e><p><l>grup<s n="n"/></l><r>group<s n="n"/></r></p></e>	
+	<e><p><l>ordu<s n="n"/></l><r>army<s n="n"/></r></p></e>
+	<e><p><l>telefon<s n="n"/></l><r>telephone<s n="n"/></r></p></e>
+	<e><p><l>kuş<s n="n"/></l><r>bird<s n="n"/></r></p></e>
+	<e><p><l>balık<s n="n"/></l><r>fish<s n="n"/></r></p></e>
+	<e><p><l>aslan<s n="n"/></l><r>lion<s n="n"/></r></p></e>
+	<e><p><l>fil<s n="n"/></l><r>elephant<s n="n"/></r></p></e>
+	<e><p><l>fare<s n="n"/></l><r>mouse<s n="n"/></r></p></e>
+	<e><p><l>ağaç<s n="n"/></l><r>tree<s n="n"/></r></p></e>
+	<e><p><l>bayrak<s n="n"/></l><r>flag<s n="n"/></r></p></e>
+	<e><p><l>bilgisayar<s n="n"/></l><r>computer<s n="n"/></r></p></e>
+	<e><p><l>şapka<s n="n"/></l><r>hat<s n="n"/></r></p></e>
+	<e><p><l>ada<s n="n"/></l><r>island<s n="n"/></r></p></e>
+	<e><p><l>dağ<s n="n"/></l><r>mountain<s n="n"/></r></p></e>
+	<e><p><l>plaj<s n="n"/></l><r>beach<s n="n"/></r></p></e>
+	<e><p><l>bahçe<s n="n"/></l><r>garden<s n="n"/></r></p></e>
+	<e><p><l>sokak<s n="n"/></l><r>street<s n="n"/></r></p></e>
+	<e><p><l>market<s n="n"/></l><r>supermarket<s n="n"/></r></p></e>
+	<e><p><l>öğrenci<s n="n"/></l><r>student<s n="n"/></r></p></e>
+	<e><p><l>elma<s n="n"/></l><r>apple<s n="n"/></r></p></e>
+	<e><p><l>kol<s n="n"/></l><r>arm<s n="n"/></r></p></e>
+	<e><p><l>atom<s n="n"/></l><r>atom<s n="n"/></r></p></e>
+	<e><p><l>hayvan<s n="n"/></l><r>animal<s n="n"/></r></p></e>
+	<e><p><l>cevap<s n="n"/></l><r>answer<s n="n"/></r></p></e>
+	<e><p><l>bebek<s n="n"/></l><r>baby<s n="n"/></r></p></e>
+	<e><p><l>banka<s n="n"/></l><r>bank<s n="n"/></r></p></e>
+	<e><p><l>vücut<s n="n"/></l><r>body<s n="n"/></r></p></e>
+	<e><p><l>ayı<s n="n"/></l><r>bear<s n="n"/></r></p></e>
+	<e><p><l>kemik<s n="n"/></l><r>bone<s n="n"/></r></p></e>
+	<e><p><l>kutu<s n="n"/></l><r>box<s n="n"/></r></p></e>
+	<e><p><l>yarasa<s n="n"/></l><r>bat<s n="n"/></r></p></e>
+	<e><p><l>yatak<s n="n"/></l><r>bed<s n="n"/></r></p></e>
+	<e><p><l>gemi<s n="n"/></l><r>boat<s n="n"/></r></p></e>
+	<e><p><l>şehir<s n="n"/></l><r>city<s n="n"/></r></p></e>
+	<e><p><l>renk<s n="n"/></l><r>colour<s n="n"/></r></p></e>
+	<e><p><l>ülke<s n="n"/></l><r>country<s n="n"/></r></p></e>
+	<e><p><l>koltuk<s n="n"/></l><r>chair<s n="n"/></r></p></e>
+	<e><p><l>palto<s n="n"/></l><r>coat<s n="n"/></r></p></e>
+	<e><p><l>kıta<s n="n"/></l><r>continent<s n="n"/></r></p></e>
+	<e><p><l>peynir<s n="n"/></l><r>cheese<s n="n"/></r></p></e>
+	<e><p><l>domates<s n="n"/></l><r>tomato<s n="n"/></r></p></e>
+	<e><p><l>maymun<s n="n"/></l><r>monkey<s n="n"/></r></p></e>
+	<e><p><l>kurt<s n="n"/></l><r>wolf<s n="n"/></r></p></e>
+	<e><p><l>ayak<s n="n"/></l><r>foot<s n="n"/></r></p></e>
+	<e><p><l>düğün<s n="n"/></l><r>wedding<s n="n"/></r></p></e>
+	<e><p><l>dost<s n="n"/></l><r>buddy<s n="n"/></r></p></e>
+	<e><p><l>kardeş<s n="n"/></l><r>brother<s n="n"/></r></p></e>
+	<e><p><l>evlilik<s n="n"/></l><r>marriage<s n="n"/></r></p></e>
+	<e><p><l>kilise<s n="n"/></l><r>church<s n="n"/></r></p></e>
+	<e><p><l>çorap<s n="n"/></l><r>sock<s n="n"/></r></p></e>
+	<e><p><l>makas<s n="n"/></l><r>scissors<s n="n"/></r></p></e>
+	<e><p><l>kazak<s n="n"/></l><r>sweater<s n="n"/></r></p></e>
+	<e><p><l>tişört<s n="n"/></l><r>t-shirt<s n="n"/></r></p></e>
+	<e><p><l>ok<s n="n"/></l><r>arrow<s n="n"/></r></p></e>
+	<e><p><l>sayfa<s n="n"/></l><r>page<s n="n"/></r></p></e>
+	<e><p><l>anasayfa<s n="n"/></l><r>homepage<s n="n"/></r></p></e>
+	<e><p><l>kül<s n="n"/></l><r>ash<s n="n"/></r></p></e>
+	<e><p><l>parmak<s n="n"/></l><r>finger<s n="n"/></r></p></e>
+	<e><p><l>kelime<s n="n"/></l><r>word<s n="n"/></r></p></e>
+	<e><p><l>fiil<s n="n"/></l><r>verb<s n="n"/></r></p></e>
+	<e><p><l>cümle<s n="n"/></l><r>sentence<s n="n"/></r></p></e> <!--- add more meanings-->
+	<e><p><l>kule<s n="n"/></l><r>tower<s n="n"/></r></p></e>
+	<e><p><l>kale<s n="n"/></l><r>castle<s n="n"/></r></p></e>
+	<e><p><l>cami<s n="n"/></l><r>mosque<s n="n"/></r></p></e>
+	<e><p><l>yastık<s n="n"/></l><r>pillow<s n="n"/></r></p></e>
+	<e><p><l>abdest<s n="n"/></l><r>ablution<s n="n"/></r></p></e>
+	<e><p><l>darbe<s n="n"/></l><r>coup<s n="n"/></r></p></e>
+	<e><p><l>cüzdan<s n="n"/></l><r>wallet<s n="n"/></r></p></e>
+	<e><p><l>şarap<s n="n"/></l><r>wine<s n="n"/></r></p></e>
+	<e><p><l>bira<s n="n"/></l><r>beer<s n="n"/></r></p></e>
+	<e><p><l>rüya<s n="n"/></l><r>dream<s n="n"/></r></p></e>
+	<e><p><l>kablo<s n="n"/></l><r>cable<s n="n"/></r></p></e>
+	<e><p><l>karpuz<s n="n"/></l><r>watermelon<s n="n"/></r></p></e>
+	<e><p><l>çilek<s n="n"/></l><r>strawberry<s n="n"/></r></p></e>
+	<e><p><l>gül<s n="n"/></l><r>rose<s n="n"/></r></p></e>
+	<e><p><l>tornavida<s n="n"/></l><r>screwdriver<s n="n"/></r></p></e>
+	<e><p><l>eldiven<s n="n"/></l><r>glove<s n="n"/></r></p></e>
+	<e><p><l>kalp<s n="n"/></l><r>heart<s n="n"/></r></p></e>
+	<e><p><l>otel<s n="n"/></l><r>hotel<s n="n"/></r></p></e>
+	<e><p><l>tabu<s n="n"/></l><r>taboo<s n="n"/></r></p></e>
+	<e><p><l>etek<s n="n"/></l><r>skirt<s n="n"/></r></p></e>
+	<e><p><l>oda<s n="n"/></l><r>room<s n="n"/></r></p></e>
+	<e><p><l>çicek<s n="n"/></l><r>flower<s n="n"/></r></p></e>
+	<e><p><l>yıldız<s n="n"/></l><r>star<s n="n"/></r></p></e>
+	<e><p><l>körfez<s n="n"/></l><r>gulf<s n="n"/></r></p></e>
+	<e><p><l>ışık<s n="n"/></l><r>light<s n="n"/></r></p></e>
+	<e><p><l>hâkim<s n="n"/></l><r>judge<s n="n"/></r></p></e>
+	<e><p><l>akşam<s n="n"/></l><r>evening<s n="n"/></r></p></e>
+	<e><p><l>sabah<s n="n"/></l><r>morning<s n="n"/></r></p></e>
+	<e><p><l>kanalizasyon<s n="n"/></l><r>sewer<s n="n"/></r></p></e>
+	<e><p><l>ad<s n="n"/></l><r>name<s n="n"/></r></p></e>
+	<e><p><l>tarih<s n="n"/></l><r>history<s n="n"/></r></p></e>
+	<e><p><l>kabul<s n="n"/></l><r>admission<s n="n"/></r></p></e>
+	<e><p><l>süre<s n="n"/></l><r>period<s n="n"/></r></p></e>
+	<e><p><l>görev<s n="n"/></l><r>duty<s n="n"/></r></p></e>
+	<e><p><l>film<s n="n"/></l><r>movie<s n="n"/></r></p></e>
+	<e><p><l>savaş<s n="n"/></l><r>war<s n="n"/></r></p></e>
+	<e><p><l>barış<s n="n"/></l><r>peace<s n="n"/></r></p></e>
+	<e><p><l>merkez<s n="n"/></l><r>hub<s n="n"/></r></p></e>
+	<e><p><l>nüfus<s n="n"/></l><r>inhabitant<s n="n"/></r></p></e>
+	<e><p><l>rol<s n="n"/></l><r>role<s n="n"/></r></p></e>
+	<e><p><l>resim<s n="n"/></l><r>picture<s n="n"/></r></p></e>
+	<e><p><l>güc<s n="n"/></l><r>strength<s n="n"/></r></p></e>
+	<e><p><l>konu<s n="n"/></l><r>topic<s n="n"/></r></p></e>
+	<e><p><l>hal<s n="n"/></l><r>situation<s n="n"/></r></p></e>
+	<e><p><l>sonuç<s n="n"/></l><r>result<s n="n"/></r></p></e>
+	<e><p><l>gece<s n="n"/></l><r>night<s n="n"/></r></p></e>
+	<e><p><l>ilişki<s n="n"/></l><r>relationship<s n="n"/></r></p></e>
+	<e><p><l>çevre<s n="n"/></l><r>environment<s n="n"/></r></p></e>
+	<e><p><l>aile<s n="n"/></l><r>family<s n="n"/></r></p></e>
+	<e><p><l>karar<s n="n"/></l><r>decision<s n="n"/></r></p></e>
+	<e><p><l>group<s n="n"/></l><r>grop<s n="n"/></r></p></e>
+	<e><p><l>oğul<s n="n"/></l><r>son<s n="n"/></r></p></e>
+	<e><p><l>ağız<s n="n"/></l><r>mouth<s n="n"/></r></p></e>
+	<e><p><l>duygu<s n="n"/></l><r>feeling<s n="n"/></r></p></e>
+	<e><p><l>takım<s n="n"/></l><r>team<s n="n"/></r></p></e>
+	<e><p><l>sabah<s n="n"/></l><r>morning<s n="n"/></r></p></e>
+	<e><p><l>koku<s n="n"/></l><r>smell<s n="n"/></r></p></e>
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+	
+	
+
+	
+	
+
+	
+
+
+
+
+
+
+		
+	
+ <!-- Numbers -->
+
+	<e><p><l>bir<s n="num"/></l><r>one<s n="num"/></r></p></e>
+	<e><p><l>iki<s n="num"/></l><r>two<s n="num"/></r></p></e>
+	<e><p><l>üç<s n="num"/></l><r>three<s n="num"/></r></p></e>
+	<e><p><l>dört<s n="num"/></l><r>four<s n="num"/></r></p></e>
+	<e><p><l>beş<s n="num"/></l><r>five<s n="num"/></r></p></e>
+	<e><p><l>altı<s n="num"/></l><r>six<s n="num"/></r></p></e>
+	<e><p><l>yedi<s n="num"/></l><r>seven<s n="num"/></r></p></e>
+	<e><p><l>sekiz<s n="num"/></l><r>eight<s n="num"/></r></p></e>
+	<e><p><l>dokuz<s n="num"/></l><r>nine<s n="num"/></r></p></e>
+	<e><p><l>sıfır<s n="num"/></l><r>zero<s n="num"/></r></p></e>
+
+    
+  </section>
+</dictionary>

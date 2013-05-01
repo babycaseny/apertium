@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+
+	<alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
+
+	<sdefs>
+	<sdef n="n"/>
+	<sdef n="cnjcoo"/>
+	<sdef n="det"/>
+	<sdef n="pron"/>
+
+	<sdef n="adv"/>
+	<sdef n="adv_raw"/>
+	<sdef n="adv_plus"/>
+
+	<sdef n="pr"/>
+	<sdef n="pos"/>
+	<sdef n="sg"/>
+	<sdef n="pl"/>
+	<sdef n="sp"/>
+	<sdef n="def"/>
+	<sdef n="num"/>
+	<sdef n="vblex"/>
+	<sdef n="p1"/>
+	<sdef n="p2"/>
+	<sdef n="pri"/>
+	</sdefs>
+	<pardefs>
+		<pardef n="slow__adv">
+			<e><p><l/><r><s n="adv"/><s n="adv_raw"/></r></p></e>
+			<e><p><l>ly</l><r><s n="adv"/><s n="adv_plus"/></r></p></e>
+		</pardef>	
+
+		<pardef n="she__pron">
+			<e><p><l/><r><s n="pron"/></r></p></e>
+		</pardef>
+		<pardef n="s/ee__vblex">
+			<e><p><l>ee</l><r>ee<s n="vblex"/><s n="pri"/></r></p></e>
+		</pardef>
+		<pardef n="tr/ies__vblex">
+			<e><p><l>ies</l><r>y<s n="vblex"/><s n="pri"/></r></p></e>			
+		</pardef>
+		<pardef n="tr/y__vblex">
+			<e><p><l>y</l><r>y<s n="vblex"/><s n="pri"/></r></p></e>			
+		</pardef>
+		<pardef n="walk/s__vblex">
+			<e><p><l>s</l><r><s n="vblex"/><s n="pri"/></r></p></e>			
+		</pardef>
+		<pardef n="walk__v">
+			<e><p><l></l><r><s n="vblex"/><s n="pri"/></r></p></e>
+		</pardef>
+		<pardef n="the__det">
+			<e><p><l/><r><s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+		</pardef>
+		<pardef n="their__det">
+			<e><p><l/><r><s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+		</pardef>	
+		<pardef n="from__pr">
+			<e><p><l/><r><s n="pr"/></r></p></e>
+		</pardef>	
+		<pardef n="and__cnjcoo">
+			<e><p><l/><r><s n="cnjcoo"/></r></p></e>
+		</pardef>	
+		<pardef n="house__n">
+			<e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
+		</pardef>	
+		
+		<pardef n="bass__n">
+			<e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l></l><r><s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+	</pardefs>
+
+	<section id="main" type="standard">
+
+<!-- Pronouns -->
+		<e lm="she"><i>she</i><par n="she__pron"/></e>	
+ 
+<!-- Articles -->
+		<e lm="the"><i>the</i><par n="the__det"/></e>
+		
+<!-- Conjunctions -->
+
+		<e lm="and"><i>and</i><par n="and__cnjcoo"/></e>
+		<e lm="or"><i>or</i><par n="and__cnjcoo"/></e>
+		<e lm="but"><i>but</i><par n="and__cnjcoo"/></e>
+
+
+ <!-- Prepositions -->
+
+		<e lm="from"><i>from</i><par n="from__pr"/></e>
+		<e lm="to"><i>to</i><par n="from__pr"/></e>
+		<e lm="on"><i>on</i><par n="from__pr"/></e>
+		<e lm="at"><i>at</i><par n="from__pr"/></e>
+		<e lm="in"><i>in</i><par n="from__pr"/></e>
+		<e lm="with"><i>with</i><par n="from__pr"/></e>
+		<e lm="under"><i>under</i><par n="from__pr"/></e>
+		<e lm="through"><i>through</i><par n="through__pr"/></e>
+		
+	
+ <!-- Determiners -->
+
+		<e lm="my"><i>my</i><par n="their__det"/></e>
+		<e lm="your"><i>your</i><par n="their__det"/></e>
+		<e lm="his"><i>his</i><par n="their__det"/></e>
+		<e lm="her"><i>her</i><par n="their__det"/></e>
+		<e lm="its"><i>its</i><par n="their__det"/></e>
+		<e lm="our"><i>our</i><par n="their__det"/></e>
+		<e lm="their"><i>their</i><par n="their__det"/></e>
+		<e lm="the"><i>the</i><par n="the__det"/></e>
+	  
+
+ <!-- Nouns -->
+		
+
+		<e lm="garden"><i>garden</i><par n="house__n"/></e>
+		<e lm="table"><i>table</i><par n="house__n"/></e>
+		<e lm="chair"><i>chair</i><par n="house__n"/></e>
+
+	
+		<e lm="everywhere"><i>everywhere</i><par n="bass__n"/></e>
+		<e lm="still"><i>still</i><par n="bass__n"/></e>
+		
+		
+<!-- Verbs -->
+		<e lm="walk"><i>walk</i><par n="walk/s__vblex"/></e>
+		<e lm="walk"><i>walk</i><par n="walk__v"/></e>
+
+		<e lm="look"><i>look</i><par n="walk/s__vblex"/></e>
+		<e lm="look"><i>look</i><par n="walk__v"/></e>
+
+		<e lm="find"><i>find</i><par n="walk/s__vblex"/></e>		
+		<e lm="find"><i>find</i><par n="walk__v"/></e>		
+
+		<e lm="try"><i>tr</i><par n="tr/ies__vblex"/></e>		
+		<e lm="try"><i>tr</i><par n="tr/y__vblex"/></e>	
+		<e lm="see"><i>s</i><par n="s/ee__vblex"/></e>
+<!-- adverbs -->
+		<e lm="slow"><i>slow</i><par n="slow__adv"/></e>
+		
+
+	</section>
+
+</dictionary>
+
+

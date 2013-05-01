@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+	<alphabet>ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZabcçdefgğhıijklmnoöprsştuüvyz</alphabet>
+
+	<sdefs>
+	<sdef n="n"/>
+        <sdef n="adv"     c="Adverb"/>
+        <sdef n="adv_raw"/>
+        <sdef n="adv_plus"/>
+	<sdef n="cnjcoo"/>
+	<sdef n="det"/>
+	<sdef n="pr"/>
+	<sdef n="pron"/>
+	<sdef n="pos"/>
+	<sdef n="sg"/>
+	<sdef n="pl"/>
+	<sdef n="sp"/>
+	<sdef n="def"/>
+	<sdef n="num"/>
+	<sdef n="vblex"/>
+	<sdef n="p1"/>
+	<sdef n="p2"/>
+	<sdef n="pri"/>
+        <sdef n="pr"/>
+
+	</sdefs>
+	<pardefs>
+		<pardef n="yavaş__adv">
+			<e><p><l/><r><s n="adv"/><s n="adv_raw"/></r></p></e>
+			<e><p><l>ça</l><r><s n="adv"/><s n="adv_plus"/></r></p></e>
+		</pardef>
+		<pardef n="ve__cnjcoo">
+			<e><p><l/><r><s n="cnjcoo"/></r></p></e>
+		</pardef>
+		<pardef n="veya__cnjcoo">
+			<e><p><l/><r><s n="cnjcoo"/></r></p></e>
+		</pardef>
+		<pardef n="altında__pr">
+			<e><p><l/><r><s n="pr"/></r></p></e>
+		</pardef>	
+		<pardef n="heryer__n">
+			<e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+		</pardef>
+		<pardef n="o__pron">
+			<e><p><l/><r><s n="pron"/></r></p></e>
+		</pardef>
+
+		<pardef n="sandalye__n">
+			<e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>ler</l><r><s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="aramak__v">
+			<e><p><l/><r><s n="vblex"/><s  n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+		</pardef>
+	</pardefs>
+
+	<section id="main" type="standard">
+		
+<!-- Conjunctions -->
+
+		<e lm="ve"><i>ve</i><par n="ve__cnjcoo"/></e>
+		<e lm="veya"><i>veya</i><par n="veya__cnjcoo"/></e>
+		<e lm="ama"><i>ama</i><par n="ve__cnjcoo"/></e>
+
+
+ <!-- Prepositions -->
+		<e lm="altında"><i>altında</i><par n="altında__pr"/></e>	
+	
+		<e lm="içinden"><i>içinden</i><par n="altında__pr"/></e>	
+ <!-- Nouns -->
+		
+		<e lm="bahçe"><i>bahçe</i><par n="sandalye__n"/></e>
+		<e lm="masa"><i>masa</i><par n="sandalye__n"/></e>
+		<e lm="sandalye"><i>sandalye</i><par n="sandalye__n"/></e>
+		<e lm="heryer"><i>heryer</i><par n="heryer__n"/></e>
+		<e lm="hala"><i>hala</i><par n="heryer__n"/></e>
+ <!-- Prouns -->
+		<e lm="o"><i>o</i><par n="o__pron"/></e>
+
+ <!-- adverbs -->
+		<e lm="yavaş"><i>yavaş</i><par n="yavaş__adv"/></e>
+ <!-- Verbs -->
+
+		<e lm="yürümek"><i>yürümek</i><par n="aramak__v"/></e>
+		<e lm="aramak"><i>aramak</i><par n="aramak__v"/></e>
+		<e lm="bulmak"><i>bulmak</i><par n="aramak__v"/></e>		
+		<e lm="denemek"><i>denemek</i><par n="aramak__v"/></e>	
+
+	</section>
+
+</dictionary>
+
+

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+
+	<alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
+
+	<sdefs>
+	<sdef n="n"/>
+	<sdef n="cnjcoo"/>
+	<sdef n="det"/>
+	<sdef n="pr"/>
+	<sdef n="pos"/>
+	<sdef n="sg"/>
+	<sdef n="pl"/>
+	<sdef n="sp"/>
+	<sdef n="def"/>
+	<sdef n="num"/>
+	</sdefs>
+	<pardefs>
+
+		
+		<pardef n="the__det">
+			<e><p><l/><r><s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+		</pardef>
+		<pardef n="their__det">
+			<e><p><l/><r><s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+		</pardef>	
+		<pardef n="from__pr">
+			<e><p><l/><r><s n="pr"/></r></p></e>
+		</pardef>	
+		<pardef n="and__cnjcoo">
+			<e><p><l/><r><s n="cnjcoo"/></r></p></e>
+		</pardef>	
+		<pardef n="house__n">
+			<e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
+		</pardef>	
+		
+		<pardef n="child__n">
+			<e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>ren</l><r><s n="n"/><s n="pl"/></r></p></e>
+		</pardef>	
+		<pardef n="m/an__n">
+			<e><p><l>an</l><r>an<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>en</l><r>an<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>	
+		<pardef n="m/ouse__n">
+			<e><p><l>ouse</l><r>ouse<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>ice</l><r>ouse<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>	
+		<pardef n="fish__n">
+			<e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>es</l><r><s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="li/fe__n">
+			<e><p><l>fe</l><r>fe<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>ves</l><r>fe<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="wol/f__n">
+			<e><p><l>f</l><r>f<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>ves</l><r>f<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="bab/y__n">
+			<e><p><l>y</l><r>y<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>ies</l><r>y<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="bass__n">
+			<e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l></l><r><s n="n"/><s n="pl"/></r></p></e>
+		</pardef>		
+		<pardef n="maxim/um__n">
+			<e><p><l>um</l><r>um<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>a</l><r>um<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="analys/is__n">
+			<e><p><l>is</l><r>is<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>es</l><r>is<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="p/erson__n">
+			<e><p><l>erson</l><r>erson<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>eople</l><r>erson<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="f/oot__n">
+			<e><p><l>oot</l><r>oot<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>eet</l><r>oot<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="stimul/us__n">
+			<e><p><l>us</l><r>us<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>i</l><r>us<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="criteri/on__n">
+			<e><p><l>on</l><r>on<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>a</l><r>on<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="appendi/x__n">
+			<e><p><l>x</l><r>x<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>ces</l><r>x<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="quiz__n">
+			<e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>zes</l><r><s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="tableau__n">
+			<e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>x</l><r><s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="kibbutz__n">
+			<e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>im</l><r><s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="gen/us__n">
+			<e><p><l>us</l><r>us<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>era</l><r>us<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="dilettant/e__n">
+			<e><p><l>e</l><r>e<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>i</l><r>e<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="librett/o__n">
+			<e><p><l>o</l><r>o<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>i</l><r>o<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="lir/a__n">
+			<e><p><l>a</l><r>a<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>e</l><r>a<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="pen/ny__n">
+			<e><p><l>ny</l><r>ny<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>ce</l><r>ny<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="corp/us__n">
+			<e><p><l>us</l><r>us<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>ora</l><r>us<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="phalan/x__n">
+			<e><p><l>x</l><r>x<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>ges</l><r>x<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="t/ooth__n">
+			<e><p><l>ooth</l><r>ooth<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>eeth</l><r>ooth<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="g/oose__n">
+			<e><p><l>oose</l><r>oose<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>eese</l><r>oose<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="larva__n">
+			<e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>e</l><r><s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="br/other__n">
+			<e><p><l>other</l><r>other<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>ethren</l><r>other<s n="n"/><s n="pl"/></r></p></e>
+			<e><p><l>others</l><r>other<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
+		<pardef n="one__num">
+			<e><p><l></l><r><s n="num"/></r></p></e>
+		</pardef>
+	</pardefs>
+
+	<section id="main" type="standard">
+
+
+ <!-- Numbers -->
+		<e lm="one"><i>one</i><par n="one__num"/></e>
+		<e lm="two"><i>two</i><par n="one__num"/></e>
+		<e lm="three"><i>three</i><par n="one__num"/></e>
+		<e lm="four"><i>four</i><par n="one__num"/></e>
+		<e lm="five"><i>five</i><par n="one__num"/></e>
+		<e lm="six"><i>six</i><par n="one__num"/></e>
+		<e lm="seven"><i>seven</i><par n="one__num"/></e>
+		<e lm="eight"><i>eight</i><par n="one__num"/></e>
+		<e lm="nine"><i>nine</i><par n="one__num"/></e>
+		<e lm="zero"><i>zero</i><par n="one__num"/></e>
+
+	
+ 
+<!-- Articles -->
+		<e lm="the"><i>the</i><par n="the__det"/></e>
+		
+
+<!-- Conjunctions -->
+
+		<e lm="and"><i>and</i><par n="and__cnjcoo"/></e>
+		<e lm="or"><i>or</i><par n="and__cnjcoo"/></e>
+
+ <!-- Prepositions -->
+
+		<e lm="from"><i>from</i><par n="from__pr"/></e>
+		<e lm="to"><i>to</i><par n="from__pr"/></e>
+		<e lm="on"><i>on</i><par n="from__pr"/></e>
+		<e lm="at"><i>at</i><par n="from__pr"/></e>
+		<e lm="in"><i>in</i><par n="from__pr"/></e>
+		<e lm="with"><i>with</i><par n="from__pr"/></e>
+
+		
+
+ <!-- Determiners -->
+
+		<e lm="my"><i>my</i><par n="their__det"/></e>
+		<e lm="your"><i>your</i><par n="their__det"/></e>
+		<e lm="his"><i>his</i><par n="their__det"/></e>
+		<e lm="her"><i>her</i><par n="their__det"/></e>
+		<e lm="its"><i>its</i><par n="their__det"/></e>
+		<e lm="our"><i>our</i><par n="their__det"/></e>
+		<e lm="their"><i>their</i><par n="their__det"/></e>
+		<e lm="the"><i>the</i><par n="the__det"/></e>
+	  
+
+ <!-- Nouns -->
+		
+		<e lm="ball"><i>ball</i><par n="house__n"/></e>
+		<e lm="book"><i>book</i><par n="house__n"/></e>
+		<e lm="bottle"><i>bottle</i><par n="house__n"/></e>
+		<e lm="cupboard"><i>cupboard</i><par n="house__n"/></e>
+		<e lm="door"><i>door</i><par n="house__n"/></e>	
+		<e lm="food"><i>food</i><par n="house__n"/></e>		
+		<e lm="house"><i>house</i><par n="house__n"/></e>
+		<e lm="key"><i>key</i><par n="house__n"/></e>
+		<e lm="man"><i>m</i><par n="m/an__n"/></e>
+		<e lm="pen"><i>pen</i><par n="house__n"/></e>
+		<e lm="soup"><i>soup</i><par n="house__n"/></e>
+		<e lm="woman"><i>wom</i><par n="m/an__n"/></e>
+		<e lm="table"><i>table</i><par n="house__n"/></e>
+		<e lm="guitar"><i>guitar</i><par n="house__n"/></e>
+		<e lm="school"><i>school</i><par n="house__n"/></e>
+		<e lm="hospital"><i>hospital</i><par n="house__n"/></e>
+		<e lm="restaurant"><i>restaurant</i><par n="house__n"/></e>
+		<e lm="cat"><i>cat</i><par n="house__n"/></e>
+		<e lm="market"><i>market</i><par n="house__n"/></e>
+		<e lm="dog"><i>dog</i><par n="house__n"/></e>
+		<e lm="sea"><i>sea</i><par n="house__n"/></e>
+		<e lm="river"><i>river</i><par n="house__n"/></e>
+		<e lm="car"><i>car</i><par n="house__n"/></e>
+		<e lm="democracy"><i>democrac</i><par n="bab/y__n"/></e>
+		<e lm="day"><i>day</i><par n="house__n"/></e>
+		<e lm="world"><i>world</i><par n="house__n"/></e>
+		<e lm="year"><i>year</i><par n="house__n"/></e>
+		<e lm="person"><i>p</i><par n="p/erson__n"/></e>
+		<e lm="way"><i>way</i><par n="house__n"/></e>
+		<e lm="thing"><i>thing</i><par n="house__n"/></e>
+		<e lm="life"><i>li</i><par n="li/fe__n"/></e>
+		<e lm="hand"><i>hand</i><par n="house__n"/></e>
+		<e lm="part"><i>part</i><par n="house__n"/></e>
+		<e lm="child"><i>child</i><par n="child__n"/></e>
+		<e lm="eye"><i>eye</i><par n="house__n"/></e>
+		<e lm="place"><i>place</i><par n="house__n"/></e>
+		<e lm="government"><i>government</i><par n="house__n"/></e>
+		<e lm="company"><i>compan</i><par n="bab/y__n"/></e>
+		<e lm="number"><i>number</i><par n="house__n"/></e>
+		<e lm="group"><i>group</i><par n="house__n"/></e>
+		<e lm="work"><i>work</i><par n="house__n"/></e>
+		<e lm="army"><i>arm</i><par n="bab/y__n"/></e>
+		<e lm="telephone"><i>telephone</i><par n="house__n"/></e>
+		<e lm="bird"><i>bird</i><par n="house__n"/></e>
+		<e lm="fish"><i>fish</i><par n="fish__n"/></e>
+		<e lm="lion"><i>lion</i><par n="house__n"/></e>
+		<e lm="elephant"><i>elephant</i><par n="house__n"/></e>
+		<e lm="mouse"><i>m</i><par n="m/ouse__n"/></e>
+		<e lm="tree"><i>tree</i><par n="house__n"/></e>
+		<e lm="flag"><i>flag</i><par n="house__n"/></e>
+		<e lm="computer"><i>computer</i><par n="house__n"/></e>
+		<e lm="island"><i>island</i><par n="house__n"/></e>
+		<e lm="mountain"><i>mountain</i><par n="house__n"/></e>
+		<e lm="beach"><i>beach</i><par n="fish__n"/></e>
+		<e lm="garden"><i>garden</i><par n="house__n"/></e>
+		<e lm="street"><i>street</i><par n="house__n"/></e>
+		<e lm="supermarket"><i>supermarket</i><par n="house__n"/></e>
+		<e lm="student"><i>student</i><par n="house__n"/></e>
+		<e lm="teacher"><i>teacher</i><par n="house__n"/></e>
+		<e lm="apple"><i>apple</i><par n="house__n"/></e>
+		<e lm="arm"><i>arm</i><par n="house__n"/></e>
+		<e lm="atom"><i>atom</i><par n="house__n"/></e>
+		<e lm="animal"><i>animal</i><par n="house__n"/></e>
+		<e lm="answer"><i>answer</i><par n="house__n"/></e>
+		<e lm="baby"><i>bab</i><par n="bab/y__n"/></e>
+		<e lm="bank"><i>bank</i><par n="house__n"/></e>
+		<e lm="body"><i>bod</i><par n="bab/y__n"/></e>
+		<e lm="bear"><i>bear</i><par n="house__n"/></e>
+		<e lm="bone"><i>bone</i><par n="house__n"/></e>
+		<e lm="box"><i>box</i><par n="fish__n"/></e>
+		<e lm="bat"><i>bat</i><par n="house__n"/></e> <!-- animal -->
+		<e lm="bed"><i>bed</i><par n="house__n"/></e>
+		<e lm="boat"><i>boat</i><par n="house__n"/></e>
+		<e lm="city"><i>cit</i><par n="bab/y__n"/></e>
+		<e lm="colour"><i>colour</i><par n="house__n"/></e>
+		<e lm="country"><i>countr</i><par n="bab/y__n"/></e>
+		<e lm="chair"><i>chair</i><par n="house__n"/></e>
+		<e lm="coat"><i>coat</i><par n="house__n"/></e>
+		<e lm="continent"><i>continent</i><par n="house__n"/></e>
+		<e lm="cheese"><i>cheese</i><par n="house__n"/></e>
+		<e lm="tomato"><i>tomato</i><par n="fish__n"/></e>
+		<e lm="monkey"><i>monkey</i><par n="house__n"/></e>
+		<e lm="wolf"><i>wol</i><par n="wol/f__n"/></e>
+		<e lm="foot"><i>f</i><par n="f/oot__n"/></e>
+		<e lm="brother"><i>br</i><par n="br/other__n"/></e>
+		<e lm="wedding"><i>wedding</i><par n="house__n"/></e>
+		<e lm="buddy"><i>budd</i><par n="bab/y__n"/></e>
+		<e lm="marriage"><i>marriage</i><par n="house__n"/></e>
+		<e lm="problem"><i>problem</i><par n="house__n"/></e>
+		<e lm="sock"><i>sock</i><par n="house__n"/></e>
+		<e lm="scissors"><i>scissors</i><par n="bass__n"/></e>
+		<e lm="jacket"><i>jacket</i><par n="house__n"/></e>
+		<e lm="sweater"><i>sweater</i><par n="house__n"/></e>
+		<e lm="arrow"><i>arrow</i><par n="house__n"/></e>
+		<e lm="page"><i>page</i><par n="house__n"/></e>
+		<e lm="homepage"><i>homepage</i><par n="house__n"/></e>
+		<e lm="ash"><i>ash</i><par n="fish__n"/></e>
+		<e lm="finger"><i>finger</i><par n="house__n"/></e>
+		<e lm="word"><i>word</i><par n="house__n"/></e>
+		<e lm="verb"><i>verb</i><par n="house__n"/></e>
+		<e lm="sentence"><i>sentence</i><par n="house__n"/></e>
+		<e lm="tower"><i>tower</i><par n="house__n"/></e>
+		<e lm="castle"><i>castle</i><par n="house__n"/></e>
+		<e lm="mosque"><i>mosque</i><par n="house__n"/></e>
+		<e lm="ablution"><i>ablution</i><par n="house__n"/></e>
+		<e lm="pillow"><i>pillow</i><par n="house__n"/></e>
+		<e lm="coup"><i>coup</i><par n="house__n"/></e>
+		<e lm="wallet"><i>wallet</i><par n="house__n"/></e>
+		<e lm="wine"><i>wine</i><par n="house__n"/></e>
+		<e lm="beer"><i>beer</i><par n="house__n"/></e>
+		<e lm="dream"><i>dream</i><par n="house__n"/></e>
+		<e lm="cable"><i>cable</i><par n="house__n"/></e>
+		<e lm="watermelon"><i>watermelon</i><par n="house__n"/></e>
+		<e lm="strawberry"><i>strawberr</i><par n="bab/y__n"/></e>
+		<e lm="screwdriver"><i>screwdriver</i><par n="house__n"/></e>
+		<e lm="glove"><i>glove</i><par n="house__n"/></e>
+		<e lm="room"><i>room</i><par n="house__n"/></e>
+		<e lm="heart"><i>heart</i><par n="house__n"/></e>
+		<e lm="hotel"><i>hotel</i><par n="house__n"/></e>
+		<e lm="taboo"><i>taboo</i><par n="house__n"/></e>
+		<e lm="skirt"><i>skirt</i><par n="house__n"/></e>
+		<e lm="flower"><i>flower</i><par n="house__n"/></e>
+		<e lm="star"><i>star</i><par n="house__n"/></e>
+		<e lm="gulf"><i>gulf</i><par n="house__n"/></e>
+		<e lm="light"><i>light</i><par n="house__n"/></e>
+		<e lm="judge"><i>judge</i><par n="house__n"/></e>
+		<e lm="night"><i>night</i><par n="house__n"/></e>
+		<e lm="evening"><i>evening</i><par n="house__n"/></e>
+		<e lm="morning"><i>morning</i><par n="house__n"/></e>
+		<e lm="sewer"><i>sewer</i><par n="house__n"/></e>
+		<e lm="morning"><i>morning</i><par n="house__n"/></e>
+		<e lm="name"><i>name</i><par n="house__n"/></e>
+		<e lm="history"><i>histor</i><par n="bab/y__n"/></e>
+		<e lm="admission"><i>admission</i><par n="house__n"/></e>
+		<e lm="period"><i>period</i><par n="house__n"/></e>
+		<e lm="duty"><i>dut</i><par n="bab/y__n"/></e>
+		<e lm="movie"><i>movie</i><par n="house__n"/></e>
+		<e lm="war"><i>war</i><par n="house__n"/></e>
+		<e lm="peace"><i>peace</i><par n="house__n"/></e>
+		<e lm="hub"><i>hub</i><par n="house__n"/></e>
+		<e lm="inhabitant"><i>inhabitant</i><par n="house__n"/></e>
+		<e lm="role"><i>role</i><par n="house__n"/></e>
+		<e lm="picture"><i>picture</i><par n="house__n"/></e>
+		<e lm="strenght"><i>strenght</i><par n="house__n"/></e>
+		<e lm="topic"><i>topic</i><par n="house__n"/></e>
+		<e lm="situation"><i>situation</i><par n="house__n"/></e>
+		<e lm="result"><i>result</i><par n="house__n"/></e>
+		<e lm="night"><i>night</i><par n="house__n"/></e>
+		<e lm="relationship"><i>relationship</i><par n="house__n"/></e>
+		<e lm="environment"><i>environment</i><par n="house__n"/></e>
+		<e lm="family"><i>famil</i><par n="bab/y__n"/></e>
+		<e lm="decision"><i>decision</i><par n="house__n"/></e>
+		<e lm="group"><i>group</i><par n="house__n"/></e>
+		<e lm="heel"><i>heel</i><par n="house__n"/></e>
+		<e lm="son"><i>son</i><par n="house__n"/></e>
+		<e lm="mouth"><i>mouth</i><par n="house__n"/></e>
+		<e lm="team"><i>team</i><par n="house__n"/></e>
+		<e lm="morning"><i>morning</i><par n="house__n"/></e>
+		<e lm="smell"><i>smell</i><par n="house__n"/></e>
+		
+
+		
+
+
+		
+
+	
+				
+
+		
+		
+
+		
+
+		
+		
+		
+		
+
+
+		
+
+
+		
+
+		
+
+		
+
+
+	</section>
+
+</dictionary>
+
+

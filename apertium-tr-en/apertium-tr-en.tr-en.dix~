@@ -1,0 +1,58 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <!-- Common -->
+    <sdef n="n"       c="Noun"/>
+    <sdef n="pron"       c="Pronoun"/>
+    <sdef n="adv"     c="Adverb"/>
+
+    <sdef n="adv_raw"/>
+    <sdef n="adv_plus"/>
+
+    <!-- Apertium -->
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="num"     c="Number"/>
+
+    <sdef n="pr"/>
+
+    <!-- trmorph -->
+    <sdef n="cnj"     c="Conjunction"/>
+    <sdef n="vblex"     c="Verbs"/>
+
+  </sdefs>
+  <section id="main" type="standard">
+    <!-- Conjunctions -->
+
+	<e><p><l>ve<s n="cnj"/></l><r>and<s n="cnjcoo"/></r></p></e>
+	<e><p><l>veya<s n="cnj"/></l><r>or<s n="cnjcoo"/></r></p></e>
+	<e><p><l>ama<s n="cnj"/></l><r>but<s n="cnjcoo"/></r></p></e>
+
+    <!-- Pronouns -->
+	<e><p><l>o<s n="pron"/></l><r>she<s n="pron"/></r></p></e>
+
+    <!-- conjuctions -->
+	
+	<e><p><l>ve<s n="cnj"/></l><r>and<s n="cnjcoo"/></r></p></e>
+	<e><p><l>veya<s n="cnj"/></l><r>or<s n="cnjcoo"/></r></p></e>
+
+    <!-- Nouns -->
+	<e><p><l>bahçe<s n="n"/></l><r>garden<s n="n"/></r></p></e>
+	<e><p><l>masa<s n="n"/></l><r>table<s n="n"/></r></p></e>
+	<e><p><l>sandalye<s n="n"/></l><r>chair<s n="n"/></r></p></e>
+
+        <e><p><l>heryer<s n="n"/></l><r>everywhere<s n="n"/></r></p></e>
+        <e><p><l>hala<s n="n"/></l><r>still<s n="n"/></r></p></e>
+    <!-- adverbs -->
+	<e><p><l>yavaş<s n="adv"/></l><r>slow<s n="adv"/></r></p></e>
+ <!-- Prepositions -->
+	<e><p><l>altında<s n="pr"/></l><r>under<s n="pr"/></r></p></e>
+
+    <!-- Verbs -->
+	<e><p><l>yürümek<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
+	<e><p><l>aramak<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
+	<e><p><l>bulmak<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
+	<e><p><l>denemek<s n="vblex"/></l><r>try<s n="vblex"/></r></p></e>
+    	<e><p><l>yürümek<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
+	<e><p><l>videti<s n="vblex"/></l><r>see<s n="vblex"/></r></p></e>
+  </section>
+</dictionary>

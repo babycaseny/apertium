@@ -1,0 +1,20 @@
+K 10
+svn:ignore
+V 136
+*.bin
+Makefile
+Makefile.in
+install.sh
+missing
+config.log
+config.in
+config
+aclocal.m4
+automa4te.cache
+.deps
+*.mode
+stamp-h1
+modes
+*.hfst
+
+END
