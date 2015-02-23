@@ -21,24 +21,24 @@
   <section id="main" type="standard">
     <!-- Conjunctions -->
 
-	<e><p><l>and<s n="cnj"/></l><r>ve<s n="cnjcoo"/></r></p></e>
-	<e><p><l>or<s n="cnj"/></l><r>veya<s n="cnjcoo"/></r></p></e>
-	<e><p><l>but<s n="cnj"/></l><r>ama<s n="cnjcoo"/></r></p></e>
+	<e><p><l>and<s n="cnj"/></l><r>en<s n="cnjcoo"/></r></p></e>
+	<e><p><l>or<s n="cnj"/></l><r>or<s n="cnjcoo"/></r></p></e>
+	<e><p><l>but<s n="cnj"/></l><r>bùt<s n="cnjcoo"/></r></p></e>
 
     <!-- Pronouns -->
 
-	<e><p><l>she<s n="pron"/></l><r>o<s n="pron"/></r></p></e>
+	<e><p><l>she<s n="pron"/></l><r>kui<s n="pron"/></r></p></e>
     <!-- Nouns -->
-	<e><p><l>garden<s n="n"/></l><r>bahçe<s n="n"/></r></p></e>
-	<e><p><l>table<s n="n"/></l><r>masa<s n="n"/></r></p></e>
+	<e><p><l>garden<s n="n"/></l><r>gardèn<s n="n"/></r></p></e>
+	<e><p><l>table<s n="n"/></l><r>teibol<s n="n"/></r></p></e>
 	<e><p><l>chair<s n="n"/></l><r>sandalye<s n="n"/></r></p></e>
 
         <e><p><l>everywhere<s n="n"/></l><r>heryer<s n="n"/></r></p></e>
         <e><p><l>still<s n="n"/></l><r>hala<s n="n"/></r></p></e>
 
  <!-- Prepositions -->
-	<e><p><l>under<s n="pr"/></l><r>altında<s n="pr"/></r></p></e>
-	<e><p><l>through<s n="pr"/></l><r>içinden<s n="pr"/></r></p></e>
+	<e><p><l>under<s n="pr"/></l><r>ùndèr<s n="pr"/></r></p></e>
+	<e><p><l>through<s n="pr"/></l><r>ŧru<s n="pr"/></r></p></e>
 
   <!-- Adverb -->
 	<e><p><l>slow<s n="adv"/></l><r>yavaş<s n="adv"/></r></p></e>
@@ -46,7 +46,9 @@
   <!-- Verbs -->
 	<e><p><l>walk<s n="vblex"/></l><r>yürümek<s n="vblex"/></r></p></e>
 	<e><p><l>look<s n="vblex"/></l><r>aramak<s n="vblex"/></r></p></e>
-	<e><p><l>find<s n="vblex"/></l><r>bulmak<s n="vblex"/></r></p></e>
+	<e><p><l>find<s n="vblex"/></l><r>faind<s n="vblex"/></r></p></e>
+	<e><p><l>search<s n="vblex"/></l><r>söč<s n="vblex"/></r></p></e>
+	<e><p><l>show<s n="vblex"/></l><r>displei<s n="vblex"/></r></p></e>
 	<e><p><l>try<s n="vblex"/></l><r>denemek<s n="vblex"/></r></p></e>
 	<e><p><l>see<s n="vblex"/></l><r>videti<s n="vblex"/></r></p></e>
 	
