@@ -1,7 +1,9 @@
 apertium
 ========
 
-Apertium Playground
+Apertium Playground for Babyish
+
+Modified from Turkish version, forked from wolet/apertium 
 
 make test-input
 
