@@ -36,12 +36,14 @@
 	<e><p><l>veya<s n="cnj"/></l><r>or<s n="cnjcoo"/></r></p></e>
 
     <!-- Nouns -->
-	<e><p><l>bahçe<s n="n"/></l><r>garden<s n="n"/></r></p></e>
-	<e><p><l>masa<s n="n"/></l><r>table<s n="n"/></r></p></e>
+	<e><p><l>gardèn<s n="n"/></l><r>garden<s n="n"/></r></p></e>
+	<e><p><l>teibol<s n="n"/></l><r>table<s n="n"/></r></p></e>
 	<e><p><l>sandalye<s n="n"/></l><r>chair<s n="n"/></r></p></e>
-
         <e><p><l>heryer<s n="n"/></l><r>everywhere<s n="n"/></r></p></e>
         <e><p><l>hala<s n="n"/></l><r>still<s n="n"/></r></p></e>
+        <e><p><l>äroport<s n="n"/><s n="m"/></l><r>airport<s n="n"/></r></p></e>
+        <e><p><l>gramofon<s n="n"/></l><r>gramophone<s n="n"/></r></p></e>
+
     <!-- adverbs -->
 	<e><p><l>yavaş<s n="adv"/></l><r>slow<s n="adv"/></r></p></e>
  <!-- Prepositions -->
@@ -51,8 +53,8 @@
     <!-- Verbs -->
 	<e><p><l>yürümek<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
 	<e><p><l>aramak<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
-	<e><p><l>bulmak<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
-	<e><p><l>denemek<s n="vblex"/></l><r>try<s n="vblex"/></r></p></e>
+	<e><p><l>faind<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
+	<e><p><l>trai<s n="vblex"/></l><r>try<s n="vblex"/></r></p></e>
     	<e><p><l>yürümek<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
 	<e><p><l>videti<s n="vblex"/></l><r>see<s n="vblex"/></r></p></e>
   </section>
